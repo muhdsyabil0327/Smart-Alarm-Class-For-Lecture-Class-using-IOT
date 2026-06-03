@@ -92,7 +92,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-30" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-13">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="840" />
+              <mxPoint x="340" y="610" />
+              <mxPoint x="467" y="610" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Wake time&lt;div&gt;OK?&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="90" x="179" y="800" as="geometry" />
@@ -104,25 +110,25 @@
           <mxGeometry height="50" width="180" x="134" y="940" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Save schedule to Supabase&lt;div&gt;(insert / update; rain&lt;/div&gt;&lt;div&gt;stored = 0)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="175" x="337" y="930" as="geometry" />
+          <mxGeometry height="70" width="175" x="379" y="630" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pair ESP32 device&lt;div&gt;(scan device QR)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="180" x="534" y="940" as="geometry" />
+          <mxGeometry height="50" width="180" x="576" y="640" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-35" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-15" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Supabase Cloud Database" vertex="1">
-          <mxGeometry height="70" width="160" x="439" y="1060" as="geometry" />
+          <mxGeometry height="70" width="160" x="481" y="760" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-36" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-16" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="ESP32 device retrieves schedule and executes the alarm" vertex="1">
-          <mxGeometry height="90" width="155" x="441.5" y="1190" as="geometry" />
+          <mxGeometry height="90" width="155" x="483.5" y="890" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
-          <mxGeometry height="40" width="80" x="478.5" y="1310" as="geometry" />
+          <mxGeometry height="40" width="80" x="520.5" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-24" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.791;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" target="O8U9zBZl0Z6IhnUwBEXj-7">
           <mxGeometry relative="1" as="geometry" />
@@ -143,7 +149,7 @@
           <mxGeometry height="30" width="60" x="379" y="380" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="One-time" vertex="1">
-          <mxGeometry height="30" width="60" x="630" y="535" as="geometry" />
+          <mxGeometry height="30" width="60" x="670" y="450" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
           <mxGeometry height="30" width="60" x="254" y="810" as="geometry" />
@@ -152,10 +158,10 @@
           <mxGeometry height="30" width="60" x="174" y="870" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="QR pairing" vertex="1">
-          <mxGeometry height="30" width="60" x="630" y="1000" as="geometry" />
+          <mxGeometry height="30" width="60" x="672" y="700" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pull over Wi-Fi" vertex="1">
-          <mxGeometry height="30" width="60" x="520" y="1140" as="geometry" />
+          <mxGeometry height="30" width="60" x="562" y="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
