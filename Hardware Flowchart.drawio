@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="qzVHdLecl3tKcGYKk_rX">
+    <mxGraphModel dx="1250" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-7" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="40" width="55" x="370" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-29" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Initialize ESP32 &amp;amp; modules&lt;br&gt;(DS3231 RTC, OLED, Buzzer, LED, Snooze/Stop Buttons);&lt;div&gt;Connect Wi-Fi&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="230" x="282.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-31" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Poll Supabase over Wi-Fi: Fetch next class + buffers (preparation, travel, rain)" vertex="1">
+          <mxGeometry height="60" width="160" x="172.5" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-41" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-51" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Snooze&lt;div&gt;or&lt;/div&gt;&lt;div&gt;Stop?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="105" x="345" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-43" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Snooze limit reached -&amp;nbsp;&lt;div&gt;press STOP (keeps ringing)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="185" x="305" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-30" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-32" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Internet&lt;div&gt;available?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="105" x="345" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="342.5" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="282.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-33" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Compute wake time =&lt;div&gt;Lecture - (prep + travel + rain)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="172.5" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-34" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Use RTC and last saved&lt;div&gt;schedule&lt;br&gt;(Offline Mode)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="462.5" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-55" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Read current time from&lt;div&gt;RTC (DS3231)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="142.5" x="326.25" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-39" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Reset snooze count = 0" vertex="1">
+          <mxGeometry height="50" width="142.5" x="326.25" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-37" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alarm Triggered:&lt;div&gt;1. Buzzer activated&lt;/div&gt;&lt;div&gt;2. Message displayed on OLED&lt;/div&gt;&lt;div&gt;3. LED Activated&lt;/div&gt;&lt;div&gt;4. Push &#39;ringing&#39; to Supabase (phone mirrors if enabled)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="152.5" x="321.25" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-42" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-45" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Snooze&lt;div&gt;&amp;lt; 3?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="105" x="200" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-48" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alarm snoozed&lt;div&gt;(silence 5 min; count + 1)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="142.5" x="181.25" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-49" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wake time&lt;br&gt;+ 5 minutes" vertex="1">
+          <mxGeometry height="50" width="142.5" x="181.25" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-53" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-50" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Alarm stopped /&amp;nbsp;&lt;div&gt;wait for next class&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="155" x="510" y="882.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="40" width="55" x="560" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-56" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-57" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-54" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Wake time&lt;div&gt;reached?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="105" x="345" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Stop" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Snooze" vertex="1">
+          <mxGeometry height="30" width="60" x="272.5" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No&lt;br&gt;(limit reached)" vertex="1">
+          <mxGeometry height="20" width="100" x="290" y="950" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
