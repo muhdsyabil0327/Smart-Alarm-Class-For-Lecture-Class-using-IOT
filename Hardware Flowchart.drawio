@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="qzVHdLecl3tKcGYKk_rX">
-    <mxGraphModel dx="1250" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="526" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,8 +85,8 @@
         <mxCell id="oEHAvb54SPrs-DQ2-KWJ-37" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alarm Triggered:&lt;div&gt;1. Buzzer activated&lt;/div&gt;&lt;div&gt;2. Message displayed on OLED&lt;/div&gt;&lt;div&gt;3. LED Activated&lt;/div&gt;&lt;div&gt;4. Push &#39;ringing&#39; to Supabase (phone mirrors if enabled)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="152.5" x="321.25" y="710" as="geometry" />
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alarm Triggered:&lt;div&gt;1. Buzzer activated&lt;/div&gt;&lt;div&gt;2. Message displayed on OLED&lt;/div&gt;&lt;div&gt;3. LED Activated&lt;/div&gt;&lt;div&gt;4. Push &#39;ringing&#39; to Supabase (phone alert only if notifications are enabled in app)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="218.75" x="288.13" y="710" as="geometry" />
         </mxCell>
         <mxCell id="oEHAvb54SPrs-DQ2-KWJ-42" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-6">
           <mxGeometry relative="1" as="geometry" />
