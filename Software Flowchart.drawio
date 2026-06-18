@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nJR7zdDKT6CZuAgGMM3Q" name="Page-3">
-    <mxGraphModel dx="833" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1191" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-20" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Login / Register Account" vertex="1">
+        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: color(srgb 0.894118 0.894118 0.894118 / 0.94); text-align: start;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Sign in with Google (UniMAP SSO)&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="180" x="234" y="140" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-21" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-5">
@@ -85,7 +85,7 @@
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-28" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Live smart wake-time&lt;div&gt;preview&lt;br&gt;(lecture - prep - travel;&lt;/div&gt;&lt;div&gt;live rain shown if wet)&lt;/div&gt;" vertex="1">
+        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;Live smart wake-time&lt;/font&gt;&lt;div&gt;&lt;font&gt;preview&lt;br&gt;(lecture - prep -&lt;font style=&quot;&quot;&gt; travel&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; -&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;rain&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;(if wet at hostel)&lt;/span&gt;)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="176" x="136" y="690" as="geometry" />
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-29" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-12">
