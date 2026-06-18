@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="qzVHdLecl3tKcGYKk_rX">
-    <mxGraphModel dx="526" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,7 +106,7 @@
         <mxCell id="oEHAvb54SPrs-DQ2-KWJ-49" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Wake time&lt;br&gt;+ 5 minutes" vertex="1">
+        <mxCell id="oEHAvb54SPrs-DQ2-KWJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: left;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 min timer&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="142.5" x="181.25" y="1140" as="geometry" />
         </mxCell>
         <mxCell id="oEHAvb54SPrs-DQ2-KWJ-53" edge="1" parent="1" source="oEHAvb54SPrs-DQ2-KWJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oEHAvb54SPrs-DQ2-KWJ-52">
