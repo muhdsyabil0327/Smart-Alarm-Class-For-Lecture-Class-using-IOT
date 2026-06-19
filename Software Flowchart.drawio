@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nJR7zdDKT6CZuAgGMM3Q" name="Page-3">
-    <mxGraphModel dx="1720" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="968" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,27 +26,33 @@
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
           <mxGeometry height="40" width="80" x="284" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-19" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-19" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="140" />
+              <mxPoint x="324" y="140" />
+            </Array>
+            <mxPoint x="324" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Launch Mobile Application" vertex="1">
           <mxGeometry height="40" width="200" x="224" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-20" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: color(srgb 0.894118 0.894118 0.894118 / 0.94); text-align: start;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Sign in with Google (SSO)&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="180" x="234" y="140" as="geometry" />
+        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="180" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-21" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-22" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="O8U9zBZl0Z6IhnUwBEXj-3">
+        <mxCell id="O8U9zBZl0Z6IhnUwBEXj-22" edge="1" parent="1" source="O8U9zBZl0Z6IhnUwBEXj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="tGQUda48pgnEdUadEfo6-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="440" y="240" />
               <mxPoint x="440" y="160" />
             </Array>
+            <mxPoint x="414" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Login Successful?" vertex="1">
@@ -162,6 +168,9 @@
         </mxCell>
         <mxCell id="O8U9zBZl0Z6IhnUwBEXj-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pull over Wi-Fi" vertex="1">
           <mxGeometry height="30" width="60" x="562" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="tGQUda48pgnEdUadEfo6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sign in with Google (SSO)" vertex="1">
+          <mxGeometry height="40" width="161" x="243.5" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
